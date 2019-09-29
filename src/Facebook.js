@@ -11,7 +11,7 @@ export default class Facebook {
   constructor(options = {}) {
     this.options = {
       domain: 'connect.facebook.net',
-      version: 'v3.2',
+      version: 'v4.0',
       cookie: false,
       status: false,
       xfbml: false,
@@ -70,7 +70,7 @@ export default class Facebook {
       js.id = 'facebook-jssdk';
       js.async = true;
       js.defer = true;
-      js.src = `https://${domain}/${language}/sdk${chatSupport ? '/xfbml.customerchat' : ''}${debug ? '/debug' : ''}.js`;
+      js.src = `https://${domain}/${language}/sdk${chatSupport ? '/xfbml.customerchat' : ''}${debug ? '/debug' : ''}.js#xfbml=1&version=v4.0&appId=${this.getAppId()}&autoLogAppEvents=1`;
 
       window.document.body.appendChild(js);
     });

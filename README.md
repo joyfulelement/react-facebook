@@ -1,14 +1,8 @@
 # React Facebook Components
 
-[![NPM version][npm-image]][npm-url]
-
-[npm-image]: https://img.shields.io/npm/v/react-facebook.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/react-facebook
-[travis-image]: https://img.shields.io/travis/seeden/react-facebook/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/seeden/react-facebook
-[coveralls-image]: https://img.shields.io/coveralls/seeden/react-facebook/master.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/seeden/react-facebook?branch=master
-[github-url]: https://github.com/seeden/react-facebook
+## NOTE: This is the forked verson of the original react-facebook ##
+### Enhancements since fork ###
+* Use v4 Facebook SDK
 
 # Components
 

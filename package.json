@@ -1,15 +1,10 @@
 {
-  "name": "react-facebook",
-  "version": "8.0.4",
+  "name": "@joyfulelement/react-facebook",
+  "version": "8.1.0",
   "description": "Facebook components like a Login button, Like, Share, Comments, Embedded Post/Video, Messenger Chat and others",
-  "author": {
-    "name": "Zlatko Fedor",
-    "email": "zfedor@gmail.com",
-    "url": "http://www.cherryprojects.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/seeden/react-facebook.git"
+    "url": "git://github.com/joyfulelement/react-facebook.git"
   },
   "keywords": [
     "react",
